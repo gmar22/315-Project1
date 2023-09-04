@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>Technical Portfolio</title> <!-- Title of Tab -->
+
+  </head>
+
+
+  <header>
+
+    <section id="navigation">
+      <table align="center">
+
+        <tr>
+
+          <td><a href= "./index.html">Landing Area</a></td>
+          <td><a href= "./qualifications.html">Qualification Section</a></td>
+          <td><a href= "./service.html">Service Section</a></td>
+          <td><a href= "./ai.html">AI Page</a></td>
+
+          <td>Style (Temp Hold)</td>
+
+        </tr>
+
+      </table>
+    </section>
+
+    <article id="titleBox">
+      <p align="center"><strong>Technical Portfolio</strong></p>
+
+    </article>
+
+  </header>
+
+
+  <body>
+
+    <article id="howdyHack2022">
+      <p>
+        HowdyHack is a competition where you and a team design and attempt to implement a project in twenty-four hours. 
+        At the most recent <a href="https://hh23.tamuhack.org/">HowdyHack</a>, the team I was on decided to implement a campus specific navigation app. A student would simply input 
+        their desired destination and the app would tell them the fastest route. While the task seems relatively straightforward, we introduced
+        further complexity by factoring in method of travel: a determined route could be walking, the campus buses, or a combination. My primary
+        responsibility was pulling information from the university transportation website about the daily bus routes and hours. I learned about 
+        and worked with requests to pull json files from the (somewhat deprecated) website. I then parsed the information in the json files, providing the needed 
+        information about each buses' routes and times. This information was used in tandem with Google Maps api to create a graph from which the 
+        shortest path could be extracted. Additionally, I worked on an elementary gui (using tkinter) that would allow a user to select a location that could 
+        then be passed into the shortest path algorithm. Overall, I am extremely happy with the work I did and the final result; however, there were 
+        some planned features that we were unable to complete within the time constraints, including a calendar feature that would plan your route 
+        for the entire day and weather considerations. You may view the project on <a href="https://github.com/andrewleachtx/JIT">GitHub</a>.
+      </p>  
+
+    </article>
+
+    <article id="tamuHack2022">
+      <p>
+        In my freshamn year, I attended my first hackathon, <a href="https://tamuhack.org/th/2023">TAMUHack</a> (which functions essentially the same as HowdyHack). My team's plan was to 
+        make a website that would help students to budget by breaking down their expenses, a quite ambitious goal as no one within the group knew 
+        even the basics of making a website (I was planning on being a mechanical engineer at the time). However we did not flounder, we immediately jumped 
+        into research. Deciding on a python backend, I began learning flask. Then, with limited time, I started on the frontend while learning the basics of html 
+        and CSS. The end result was not pretty nor was it functional. Nonetheless, I really enjoyed the event and am proud of the effort we put into what amounted to an 
+        impossible task for our skills at the time. It was an ugly, dirty, yet enjoyable process, and the experience is part of the reason I now study computer science.
+        You may view the project on <a href="https://github.com/gmar22/FinancialPlanner---TamuHACK/tree/main">GitHub</a>.
+      </p>
+
+    </article>
+
+    <article id="planned">
+        <p>
+          My upcoming/ongoing project involves an app called <a href="https://rockbot.com/music">RockBot</a>. I first encountered RockBot at the 
+          campus dining halls. How it works is you download the app, it connects you to your nearest RockBot location (the dining hall for me), 
+          and you can enter music into a queue, and that music will eventually be played at that location! With just that feature, the app is fun, but 
+          the level aspect is what got me hooked. Depending on how often you used the app, the higher your account level, and the higher your level the 
+          more priority your songs recieved in the queue. I immediately began grinding to the point that I am fairly certain I hold the highest RockBot 
+          level on campus. Eventually, I began wondering if I could automate this process: create a script that would automatically input songs into the 
+          queue and thereby automatically increase my level. I have several ideas as to the implementation. Firstly, I could have a script manually input 
+          "clicks" to open the app, load a song, then, every designated period, visually check if my song had played, loading another song if it had. I dislike this 
+          implementation because it has too many seams, so now I am researching ways I could interact with the app through api calls or some other less 
+          clunky manner. Some introductory code (and eventually the entire project) can be seen on <a href="https://github.com/GMar25/RockBotBot">here</a>.
+        
+        </p>
+  
+    </article>
+
+  </body>
+
+
+  <footer>
+    <p>gmariano@tamu.edu 8/30/2023</p>
+  </footer>
+
+<html>
