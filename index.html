@@ -1,88 +1,81 @@
-<!DOCTYPE HTML>
-<html>
-  
-  <head>
-    <title>Landing Area</title> <!-- Title of Tab -->
-
-  </head>
-
-
-  <header>
-
-    <section id="navigation">
-      <table align="center">
-
-        <tr>
-
-          <td><a href= "./technical.html">Techical Portfolio</a></td>
-          <td><a href= "./qualifications.html">Qualification Section</a></td>
-          <td><a href= "./service.html">Service Section</a></td>
-          <td><a href= "./ai.html">AI-Generated Page</a></td>
-
-          <td>Style(Temp Hold)</td>
-
-        </tr>
-
-      </table>
-    </section>
-
-    <article id="titleBox">
-      <p align="center"><strong>Landing Area</strong></p>
-
-    </article>
-
-  </header>
-
-
-  <body>
-
-    <article id="aboutMe">
-      <p>
-        Howdy! My name is <a href="https://www.linkedin.com/in/gage-mariano-3a9218233/">Gage Mariano</a>, and I am a current junior computer science major at Texas A&M University. I am originally from Mansfield 
-        (a Dallas suburb), Texas where I lived for almost my entire life before coming to A&M. Ironically, when I went into college, I did so with 
-        the intent of being a mechanical engineering major. Then, in my first semester, I took what was essentially a introductory python course. I 
-        enjoyed the course content, but I still planned to declare as a mechanical engineering student. As the next semester progressed, I found myself 
-        thinking about how certain problems would be solved in python and even creating some programs for classes that in no way required or were 
-        related to coding. By the next semester, I was officially a computer science major. Some of the topics I have really enjoyed learning about 
-        include data structures and computer architecture. Data structures are interesting to me because they are a bridge between concept and 
-        implementation. Being familiar with a variety of data structures allows me to quickly translate my thoughts to code (or realize that my 
-        ideas are not easily implementable). Computer architecture (particularly logic gates) are interesting to me because of how tiny, simple pieces 
-        accumulate to form extensive, complex systems. The computer architecture class I took here at A&M is my favorite class I have ever taken 
-        (so far) because of this cumulative nature. At the end of the course, I felt like I could explain every aspect of what we had learned down 
-        to a very fundamental level along with how each concept interconnected; I really loved the completeness of the subject. In general, I am 
-        an diligent, easy-going, and curious student who enjoys what he is studying and the people around it. I work well and enjoying working with a 
-        all sorts of people (which is probably why my <a href="technical.html">project</a>  was a group project), and I look forward to the many 
-        experiences I know are now just up the road.
-      </p> 
-
-    </article>
-
-    <article id="picture">
-      <img src="./senior.JPG">
-      <aside>
-        <p>One of my senior pictures. Taken in downtown Mansfield</p>
-      </aside>
-
-    </article>
-
-    
-
-    <article id="extraInfo">
-      <p>
-        Outside of computer science, I enjoy reading, guitar, and ping pong. I used to be a voracious reader, reading one or two books a week; sadly, 
-        I have slowed down now, but it is still something I fall back on and enjoy. I began learning guitar a little less than two years ago, and, 
-        despite still being no good, I love hammering out a few chords and stumbling over a couple riffs almost everyday. Finally, I started playing 
-        ping pong probably three years ago now, and its a great break from all the sitting I do as a computer science student. 
-      </p>
-
-    </article>
-
-  </body>
-
-
-  <footer>
-    <p>gmariano@tamu.edu 8/30/2023</p>
-  </footer>
+<!DOCTYPE html>
 
 <html>
 
+    <head>
+        <title>Landing Area</title>
+
+        <!-- CSS -->
+        <link href="./base.css" rel="stylesheet">
+        <link href="./index.css" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navigation">
+            <a href= "./technical.html">Techical Portfolio</a>
+            <a href= "./qualifications.html">Qualification Section</a>
+            <a href= "./service.html">Service Section</a>
+            <a href= "./ai.html">AI-Generated Page</a>
+
+            <button>Style (Unfinished)</button>
+        </div>
+
+        <!-- Title -->
+        <div class="title"><p>Landing Area</p></div>
+
+        <!-- Container for about me, picture, and caption -->
+        <div class="grid">
+
+            <!-- About Me -->
+            <div class="aboutMe">
+                <p>          
+                    Howdy! My name is <a href="https://www.linkedin.com/in/gage-mariano-3a9218233/">Gage Mariano</a>, and I am a current junior computer science major at Texas A&M University. I am originally from Mansfield 
+                    (a Dallas suburb), Texas where I lived for almost my entire life before coming to A&M. Ironically, when I went into college, I did so with 
+                    the intent of being a mechanical engineering major. Then, in my first semester, I took what was essentially a introductory python course. I 
+                    enjoyed the course content, but I still planned to declare as a mechanical engineering student. As the next semester progressed, I found myself 
+                    thinking about how certain problems would be solved in python and even creating some programs for classes that in no way required or were 
+                    related to coding. By the next semester, I was officially a computer science major. Some of the topics I have really enjoyed learning about 
+                    include data structures and computer architecture. Data structures are interesting to me because they are a bridge between concept and 
+                    implementation. Being familiar with a variety of data structures allows me to quickly translate my thoughts to code (or realize that my 
+                    ideas are not easily implementable). Computer architecture (particularly logic gates) are interesting to me because of how tiny, simple pieces 
+                    accumulate to form extensive, complex systems. The computer architecture class I took here at A&M is my favorite class I have ever taken 
+                    (so far) because of this cumulative nature. At the end of the course, I felt like I could explain every aspect of what we had learned down 
+                    to a very fundamental level along with how each concept interconnected; I really loved the completeness of the subject. In general, I am 
+                    an diligent, easy-going, and curious student who enjoys what he is studying and the people around it. I work well and enjoying working with a 
+                    all sorts of people (which is probably why my <a href="technical.html">favorite project</a>  was a group project), and I look forward to the many 
+                    experiences I know are now just up the road.
+                </p>
+            </div>
+
+            <!-- Picture -->
+            <div class="picture">
+                <figure>
+                    <img src="senior.JPG">
+                </figure>
+
+                <figcaption>One of my senior pictures. Taken in Downtown Mansfield</figcaption>
+
+            </div>
+
+        </div>
+
+        <!-- Extra -->
+        <div class="extra">         
+            <p>
+                Outside of computer science, I enjoy reading, guitar, and ping pong. I used to be a voracious reader, reading one or two books a week; sadly, 
+                I have slowed down now, but it is still something I fall back on and enjoy. I began learning guitar a little less than two years ago, and, 
+                despite still being no good, I love hammering out a few chords and stumbling over a couple riffs almost everyday. Finally, I started playing 
+                ping pong probably three years ago now, and its a great break from all the sitting I do as a computer science student. 
+            </p> 
+        </div>
+
+        <!-- Footer -->
+        <div class="footer"><p>gmariano@tamu.edu 09/04/2023</p></div>
+
+    </body>
+
+
+</html>

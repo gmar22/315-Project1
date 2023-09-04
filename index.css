@@ -1,0 +1,48 @@
+/* Grid */
+.grid {
+    display: grid;
+    grid-template: 1fr / 11fr 3fr;
+}
+
+/* Grid: R1 C1, About Me */
+.aboutMe {
+    display: flex;
+    justify-content: center;
+
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    font-size: 1.4rem;
+}
+
+/* Grid R1 C2, Picture and Caption */
+.picture figure{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 2rem;
+}
+
+.picture figcaption {
+    padding: 0 1rem 0 2.5rem;
+    font-size: 1.05rem;
+}
+
+/* Extra Information */
+.extra {
+    display: flex;
+    justify-content: center;
+
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    font-size: 1.4rem;
+}
+
+

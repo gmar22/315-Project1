@@ -1,0 +1,46 @@
+/* Container for JIT, financial, and planned */
+.grid {
+    display: grid;
+    grid-template: 1fr / 3fr 5fr;
+}
+
+/* Grid R1 C1, JIT */
+.JIT {
+    display: flex;
+    justify-content: center;
+
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    font-size: 1.4rem;
+}
+
+/* Grid R1 C2, financial and planned */
+.financial {
+    display: flex;
+    justify-content: center;
+
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    font-size: 1.4rem;
+}
+
+.planned {
+    display: flex;
+    justify-content: center;
+
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem 1rem 1rem 1rem;
+
+    font-size: 1.4rem;
+}
