@@ -1,0 +1,174 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:visited {
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Buttons */
+button {
+    display: none;
+}
+
+#styleButton {
+    display: contents;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px calc((100vw - 1200px) / 2);
+    background-color: aliceblue;
+    box-shadow: 0px 2px 5px black;
+}
+
+.navigation a {
+    padding: 0px 4rem;
+    border-right: 2px solid black;
+    font-size: 1.1rem;
+}
+
+/* Title */
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.4rem; 
+}
+
+.title p {
+    font-size: 2.5rem;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: aliceblue;
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+.footer p {
+    margin-top: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+/* General styling for all "bubbles" of text */
+.bubble {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 2px 5px black;
+    font-size: 1.4rem;
+}
+
+/* Label for Other Style */
+label {
+    display: none;
+}
+
+
+/* Specific Page */
+
+/* Index */
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-size: 8rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: linear-gradient(45deg,aqua,blue);
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+
+/* Grid */
+.indexGrid {
+    display: grid;
+    grid-template: 1fr / 11fr 3fr;
+}
+
+/* Grid R1 C2, Picture */
+#indexPicture figure img {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    width: 95%;
+    padding-top: 3rem;
+    padding-right: 1rem;
+}
+
+
+/* Technical */
+/* Container for JIT, financial, and planned */
+.technicalGrid {
+    display: grid;
+    grid-template: 1fr / 3fr 5fr;
+}
+
+
+/* Qualifications */
+/* Container for Resume, Languages, and Libararies/Software */
+.qualificationsGrid {
+    display: grid;
+    grid-template: 1fr / 3fr 1fr;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Service */
+/* Container for Big Event 2023 and Big Event Pic */
+.serviceGrid1 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+} 
+
+/* Container for Physics Fair and Pic */
+.serviceGrid2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+} 
+
+.physicsFairPic {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    max-width: 20rem;
+    max-height: 12rem;
+    padding: 1.3rem;
+    width: 700px;
+    height: 300px;
+    display: contents;
+}
+
+.bigEventPic {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    max-width: 15rem;
+    max-height: 15rem;
+    padding: 2rem;
+    width: 500px;
+    height: 300px;
+    display: contents;
+}
