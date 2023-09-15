@@ -16,6 +16,10 @@ body {
     min-height: 100vh;
 }
 
+a {
+    color: rgb(21, 21, 54);
+}
+
 /* Picture */
 figure {
     display: flex;
@@ -45,6 +49,7 @@ iframe {
 }
 
 .navigation a {
+    color: white;
     background-color: rgb(52, 52, 52);
     padding: 0px 2rem;
     border-right: 2px solid black;
